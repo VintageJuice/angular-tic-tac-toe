@@ -1,0 +1,15 @@
+<h1 mat-dialog-title style="align-content: center">Current Player: {{ player }} </h1>
+
+<button mat-button color="accent" style="align-content: center" (click)="newGame()">Start new game</button>
+
+<h2 *ngIf="winner">
+  Player {{ winner }} won the game!
+</h2>
+
+<main>
+  <app-square
+    *ngFor="let val of squares; let i = index"
+    [value]="val"
+    (click)="makeMove(i)">
+  </app-square>
+</main>
