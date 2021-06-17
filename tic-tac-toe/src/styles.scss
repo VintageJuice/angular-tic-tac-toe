@@ -4,11 +4,13 @@
 @include mat.core();
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
-html, body { height: 100%; }
+html, body {
+  height: 100%;
+  background-color: indigo;
+}
 body .mat-typography {
   margin: 0;
-  font-family: Roboto,
-  "Helvetica Neue", sans-serif;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 app-root {
@@ -17,4 +19,3 @@ app-root {
   justify-content: center;
   align-items: center;
 }
-

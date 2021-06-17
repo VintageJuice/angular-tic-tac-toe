@@ -1,10 +1,33 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+h1, h2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 24px;
+  padding: 5px;
+}
+
+button {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px darkred solid;
+  font-size: 24px;
+}
+
 main {
   display: grid;
   grid-template-columns: 200px 200px 200px;
   grid-gap: 0px;
   justify-content: center;
   align-items: center;
+  margin: 10px;
+  box-shadow: 5px 5px 10px #393939;
 }
 
 app-square {

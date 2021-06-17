@@ -1,1 +1,20 @@
+.mat-button {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  font-size: 60px;
+  background-color: mediumpurple;
+}
 
+.mat-button.mat-x {
+  background: linear-gradient(90deg, rgba(107,9,121,1) 45%, rgba(154,0,255,1) 100%);
+  color: white;
+}
+
+.mat-button.mat-o {
+  background: linear-gradient(90deg, rgba(55,237,238,1) 41%, rgba(23,186,224,1) 100%);
+  color: white;
+}
